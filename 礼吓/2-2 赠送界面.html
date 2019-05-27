@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<style type="text/css">
+			
+			html{
+				/* font-size: 100px; */
+				/* 设计图:750px ---- 设备375px
+				 测量大小减半
+				 */
+				font-size: 50px;
+			}
+				.wrapper{
+				/* border: 1px solid red; */
+				display: flex;
+				flex-wrap: wrap;
+				flex-direction:column;
+				align-items:center;
+				padding: 0 0.48rem;
+			}
+			.wrapper p{
+				height: 0.25rem;
+				padding: 0.125rem 0 0.125rem 0;
+				text-align: center;
+			}
+			.part1{
+				width: 100%;
+				padding: 0.53rem 0 0.3rem 0;
+					display: flex;
+				flex-wrap: wrap;
+				flex-direction:column;
+				align-items:center;	
+			}
+			.part1 img{
+				width: 2.54rem;
+				padding-bottom: 0.28rem;
+			}
+			.part2{
+				width: 100%;
+				border: darkgrey 0.5px solid;
+				border-radius: 0.1rem;
+				padding-bottom:0.3rem ;
+			}
+			.price{
+				display: flex;
+				flex-wrap: wrap;
+				/* align-items:center; */
+				justify-content: space-between;
+				/* padding: 0.3rem 0 0 0; */
+				width: 100%;
+				color: grey;
+			}
+			.zuo{
+				padding-top: 0.38rem;
+				padding-left: 0.38rem;
+			}
+			.you{
+				padding-top: 0.38rem;
+				padding-right: 0.38rem;
+			}
+			.part3{
+				width: 100%;
+			}
+			.abiao{
+					padding: 0.27rem 0 0.14rem 0;
+					font-size: 0.24rem;
+					width: 100%;
+			}
+			.meinv img{
+				width: 100%;
+			}
+			.meinv{
+				padding-bottom: 0.69rem;
+			}
+			.part4 img{
+				width: 100%;
+			}
+			.part4{
+				padding-bottom: 0.53rem;
+			}
+			
+			
+			
+			
+			
+			
+			
+			
+			@media screen and (max-width:374px) {
+				html{
+					font-size: 30px;
+					
+				}
+			}
+			@media screen and (min-width: 376px) and (max-width: 414px) {
+				html{
+					font-size: 55px;
+				}
+				}
+				@media screen and (min-width: 768px) {
+				html{
+					font-size: 100px;
+					
+				}
+			}
+			@media screen and (min-width: 1024px) {
+				html{
+					font-size: 125px;
+					
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<p>购买礼盒</p>
+			<div class="part1">
+				<div class="pic">
+					<img src="img/15.png" >
+				</div>
+				<p>年会系列礼盒</p>
+			</div>
+			<div class="part2">
+				<div class="price">
+					<div class="zuo">礼物价格</div>
+					<div class="you">198元</div>
+				</div>
+				<div class="price">
+					<div class="zuo">盒内礼品</div>
+					<div class="you">52件</div>
+				</div>
+				<div class="price">
+					<div class="zuo">礼品总价值</div>
+					<div class="you">3000~5000元</div>
+				</div>
+			</div>
+			<div class="part3">
+				<div class="abiao"><a href="#">你的赠言</a></div>
+				<div class="meinv"><img src="img/16.png" ></div>
+			</div>
+			<div class="part4">
+				<a href="2-3 赠送成功.html"><img src="img/17.png" ></a>
+			</div>
+			
+		</div>
+	</body>
+</html>

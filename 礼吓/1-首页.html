@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<style type="text/css">
+			html{
+				/* font-size: 100px; */
+				/* 设计图:750px ---- 设备375px
+				 测量大小减半
+				 */
+				font-size: 50px;
+			}
+			
+			/* 单位:不要出现px单位
+			1. 百分比单位
+			2. rem单位
+			3.铺满屏宽度:不要给,自适应
+			4.文字大小用rem单位
+			
+			多用弹性盒子!!!!
+			 */
+			.wrapper{
+				/* border: 1px solid red; */
+				display: flex;
+				flex-wrap: wrap;
+				flex-direction:column;
+				align-items:center;
+				
+			}
+			.wrapper p{
+				height: 0.25rem;
+				padding: 0.125rem 0 0.125rem 0;
+				text-align: center;
+			}
+			.swiper1{width: 100%;}
+			.wrapper .swiper1 img{
+				width: 100%;
+			}
+			.wrapper .swiper2{
+				padding: 0.57rem 0.46rem 0;
+				position: relative;
+			}
+			.wrapper .swiper2 #qingrenjie img{
+				width: 100%;
+			}
+			#huangguan{
+				position: absolute;
+				top: 0.3rem;
+				right: 0.2rem;
+			}
+			.wrapper .swiper3 img{
+				width: 100%;
+			}
+			.wrapper .swiper3{
+				padding: 0.37rem 0.46rem 0;
+			}
+			.wrapper .swiper4 img{
+				width: 100%;
+			}
+			.wrapper .swiper4{
+				padding: 0.41rem 0.46rem 0;
+			}
+			.wrapper .swiper5 img{
+				width: 100%;
+			}
+			.wrapper .swiper5{
+				padding: 0.41rem 0.46rem 0;
+			}
+			.wrapper .swiper6 img{
+				width: 100%;
+			}
+			.wrapper .swiper6{
+				padding: 0.41rem 0.46rem 0;
+			}
+			.wrapper .swiper7 img{
+				width: 100%;
+			}
+			.wrapper .swiper7{
+				padding: 0.41rem 0.46rem 0;
+			}
+			.wrapper .swiper8 img{
+				width: 100%;
+			}
+			.wrapper .swiper8{
+				padding: 0.41rem 0.46rem 0;
+			}
+			.wrapper .bottom{
+				width: 100%;
+				display: flex;
+				flex-direction:row;
+				align-items: center;
+				justify-content: center;
+				height: 2rem;
+			
+			}
+			.receive a{
+				margin-right: 0.4rem;
+				font-size:0.35rem ;
+			}
+			.give a{
+				font-size:0.35rem ;
+			}
+			a{
+				color: #000000;
+			}
+			
+
+			
+			
+			
+		
+			
+		@media screen and (max-width:374px) {
+			html{
+				font-size: 30px;
+				
+			}
+		}
+		@media screen and (min-width: 376px) and (max-width: 414px) {
+			html{
+				font-size: 55px;
+			}
+			}
+			@media screen and (min-width: 768px) {
+			html{
+				font-size: 100px;
+				
+			}
+		}
+		@media screen and (min-width: 1024px) {
+			html{
+				font-size: 125px;
+				
+			}
+		}
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<p>礼吓</p>
+			<div class="swiper1">
+				<img src="img/1.png" >
+			</div>
+			<div class="swiper2">
+				<a href="2-1 订单购买页.html"><div id="qingrenjie"><img src="img/2.png" ></a></div>
+				<div id="huangguan"><img src="img/huangguan.png"></div>
+			</div>
+			<div class="swiper3">
+				<img src="img/3.png" >
+			</div>
+			<div class="swiper4">
+				<img src="img/4.png" >
+			</div>
+			<div class="swiper5">
+				<img src="img/5.png" >
+			</div>
+			<div class="swiper6">
+				<img src="img/6.png" >
+			</div>
+			<div class="swiper7">
+				<img src="img/7.png" >
+			</div>
+			<div class="swiper8">
+				<img src="img/8.png" >
+			</div>
+			<div class="bottom">
+				<div class="receive">
+					<a href="4-我收到的.html">我收到的</a>
+				</div>
+				<div class="give">
+					<a href="3-1 我赠送的.html">我赠送的</a>
+				</div>
+			</div>
+		</div>
+
+			
+			
+			
+			
+		
+	</body>
+</html>

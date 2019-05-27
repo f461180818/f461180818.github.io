@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<style type="text/css">
+			html{
+				/* font-size: 100px; */
+				/* 设计图:750px ---- 设备375px
+				 测量大小减半
+				 */
+				font-size: 50px;
+			}
+				.wrapper{
+				/* border: 1px solid red; */
+				display: flex;
+				flex-wrap: wrap;
+				flex-direction:column;
+				align-items:center;
+				
+			}
+			.wrapper p{
+				height: 0.25rem;
+				padding: 0.125rem 0 0.125rem 0;
+				text-align: center;
+			}
+			.top{
+				width: 100%;
+					display: flex;
+				flex-wrap: wrap;
+				flex-direction:column;
+				align-items:center;
+				padding: 1rem 0 1.92rem;
+				}
+			.top img{
+				width: 2.04rem;
+				padding-bottom: 0.45rem;
+			}
+			.body{
+				width: 100%;
+					display: flex;
+				flex-wrap: wrap;
+				flex-direction:column;
+				align-items:center;
+				padding: 1rem 0 1.92rem;
+				}
+			.wenzi{
+				font-size: 0.28rem;
+				color: darkgray;
+			}
+			/* .pic{width: 100%;} */
+			.pic img{
+				width: 6.94rem;
+				padding: 0.25rem 0;
+				}
+			
+			
+			.wrapper .bottom{
+				width: 100%;
+				display: flex;
+				flex-direction:row;
+				align-items: center;
+				justify-content: center;
+				height: 2rem;
+			
+			}
+			.receive a{
+				margin-right: 0.4rem;
+				font-size:0.35rem ;
+			}
+			.give a{
+				font-size:0.35rem ;
+			}
+			a{
+				color: #000000;
+			}
+			
+			
+			
+			
+			
+			
+			@media screen and (max-width:374px) {
+				html{
+					font-size: 30px;
+					
+				}
+			}
+			@media screen and (min-width: 376px) and (max-width: 414px) {
+				html{
+					font-size: 55px;
+				}
+				}
+				@media screen and (min-width: 768px) {
+				html{
+					font-size: 100px;
+					
+				}
+			}
+			@media screen and (min-width: 1024px) {
+				html{
+					font-size: 125px;
+					
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<p>购买礼盒</p>
+			<div class="top">
+				<img src="img/29.png" >
+				<h2>赠送成功</h2>
+			</div>
+			<div class="body">
+				<div class="wenzi">
+					<p>您可以在“我赠送的”查看好友获得的物品，物品在好</p>
+					<p>友填写收货信息后1个工作日内发出</p>
+				</div>
+				<div class="pic">
+					<img src="img/30.png" >
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="receive">
+					<a href="4-我收到的.html">我收到的</a>
+				</div>
+				<div class="give">
+					<a href="3-1 我赠送的.html">我赠送的</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
